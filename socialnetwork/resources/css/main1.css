@@ -1,0 +1,177 @@
+/* Main Settings */
+
+body {
+    margin: 0;
+    font-family: Fontin, Arial, Verdana;
+    font-size: 18px;
+    background-color: #e9ebee;
+}
+
+/* Add a media query for smaller screens */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16%;
+    }
+}
+
+input {
+    font-family: Fontin, Arial, Verdana;
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+}
+
+button {
+    font-family: Fontin, Arial, Verdana;
+    font-size: 18px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+.required {
+    color: red;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1068px;
+}
+
+/* Navbar Settings */
+
+.usernav {
+    background-color: #4267b2;
+    overflow: auto;
+}
+
+.usernav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a media query for smaller screens */
+
+@media (max-width: 768px) {
+    .usernav ul {
+        float: none;
+        text-align: center;
+    }
+}
+
+.usernav ul li {
+    display: inline;
+}
+
+.usernav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+}
+
+.usernav ul li a:hover {
+    background-color: #23385f;
+}
+
+/* Search */
+
+.usernav .globalsearch {
+    margin: 0;
+    width: 60%;
+    background-color: #4267b2;
+}
+
+.usernav .globalsearch input[type=text] {
+    border: none;
+    width: auto;
+    padding: 2px 6px;
+}
+
+.usernav .globalsearch input[type=submit] {
+    background-color: #e9ebee;
+    color: #23385f;
+    border: none;
+    margin: 5px 5px 5px 0;
+    padding: 2px 6px;
+    width: auto;
+}
+
+.usernav .globalsearch input[type=submit]:hover {
+    background-color: #23385f;
+    color: white;
+}
+
+.usernav .globalsearch select {
+    font-family: Fontin;
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 0.9px 0px;
+    vertical-align: -1px;
+}
+
+/* Posts Settings */
+
+/* General Layout of Post */
+
+.post,
+.createpost {
+    background-color: white;
+    box-shadow: 0 0 5px #4267b2;
+    margin: auto;
+    width: 650px;
+    padding: 10px 16px;
+    overflow: auto;
+}
+
+/* Add a media query for smaller screens */
+
+@media (max-width: 768px) {
+    .post,
+    .createpost {
+        width: 100%;
+    }
+}
+
+/* Create Post Control */
+
+.createpostbuttons {
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+}
+
+.createpostbuttons img {
+    display: inline-block;
+    width: 12%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.createpostbuttons label {
+    cursor: pointer;
+}
+
+.createpostbuttons textarea {
+    height: 100px;
+}
+
+/* Post Content
